@@ -46,15 +46,7 @@ digitalWrite(A3, (xx[pasy]>>3)&1);
 void muove_cnc()
 {
   while(x0 != x1 and y0 != y1)
-  { /*
-    Serial.print(x0);
-    Serial.print(">");
-    Serial.println(x1);
-    Serial.print(y0);
-    Serial.print(">");
-    Serial.println(y1);
-  */
-  
+  {
   delay(1);
       e2 = 2 * error;
     if (e2 >= dy)
@@ -127,17 +119,6 @@ void setup() {
   pinMode(A3, OUTPUT);
    Serial.begin(115200);
    if (Serial){Serial.println("Grbl costycnc");}
-
- /*
-  TCCR1A = 0;                //Registro de control A a 0
-  TCCR1B = 0;                //Limpiar registro
-  TCNT1  = 0;                //Inicializar el temporizador
-  OCR1A = 15624;            //Carga el valor del registro de comparación: 16MHz/1024/1Hz -1 = 15624 = 0X3D08
-  TCCR1B |= (1 << WGM12)|(1 << CS12)|(1 << CS10);   //Modo CTC, prescaler de 1024: CS12 = 1 y CS10 = 1  
-  TIMSK1 |= (1 << OCIE1A);  //Habilita interrupción por igualdad de comparación
-*/
-
-
 }
 
 void loop()
@@ -168,43 +149,3 @@ void loop()
   }
 }
 
-ISR(TIMER1_COMPA_vect)          //Interrupción por igualdad de comparación en TIMER1
-{
-  if(a){Serial.println("ok");a=0;}
-  /*
-  Serial.print(x0);
-  Serial.print(">");
-  Serial.println(x1);
-  Serial.print(y0);
-  Serial.print(">");
-  Serial.println(y1);
-  Serial.println("-----------");
-
- 
- if(a)
- {
-    if(x0 == x1 and y0 == y1){Serial.println("ok");a=0;}
-    else
-    {
-        e2 = 2 * error;
-      if (e2 >= dy)
-      {
-        error = error + dy;
-        x0 = x0 + sx;
-        b +=sx;
-        movex(b&7);
-      }  
-      if (e2 <= dx)
-      {
-        error = error + dx;
-        y0 = y0 + sy;
-        d +=sy;
-        movey(d&7); 
-      } 
-
-
-
-    }
- }
-*/
-}
