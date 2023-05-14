@@ -29,18 +29,18 @@ int xx[]={1,3,2,6,4,12,8,9};
 
 void movex(int pasx)
 {
-digitalWrite(2, (xx[pasx]>>0)&1);
-digitalWrite(3, (xx[pasx]>>1)&1);
-digitalWrite(4, (xx[pasx]>>2)&1);
-digitalWrite(5, (xx[pasx]>>3)&1);    
+digitalWrite(2, (xx[pasx]>>3)&1);
+digitalWrite(3, (xx[pasx]>>2)&1);
+digitalWrite(4, (xx[pasx]>>1)&1);
+digitalWrite(5, (xx[pasx]>>0)&1);    
 }
 
 void movey(int pasy)
 {
-digitalWrite(A0, (xx[pasy]>>0)&1);
-digitalWrite(A1, (xx[pasy]>>1)&1);
-digitalWrite(A2, (xx[pasy]>>2)&1);
-digitalWrite(A3, (xx[pasy]>>3)&1); 
+digitalWrite(A0, (xx[pasy]>>3)&1);
+digitalWrite(A1, (xx[pasy]>>2)&1);
+digitalWrite(A2, (xx[pasy]>>1)&1);
+digitalWrite(A3, (xx[pasy]>>0)&1); 
 }
 
 
