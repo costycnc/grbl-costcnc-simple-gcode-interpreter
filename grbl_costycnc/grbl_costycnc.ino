@@ -72,8 +72,9 @@ void gcode_exec(String string)
   if(g)
   {
     g=instrg.toInt();
-    if(g=90){absolute=0;}
-    if(g=91){absolute=1;}
+    if(g==90){absolute=1;}
+    if(g==91){absolute=0;}
+    if(g==92){x0=x1=0;y0=y1=0;}
   }
 
   if(x)
