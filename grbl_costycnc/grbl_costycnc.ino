@@ -130,7 +130,7 @@ void loop()
     if (Serial.available() > 0)
     {
       c = Serial.read();
-
+      a=0;
       if (c != '\r')
       {
         if(x){ instrx +=char(c);}
@@ -148,6 +148,22 @@ void loop()
 
       }
     } 
+        else
+	  {
+		  a++;
+		  delay(1);
+	  }
   }
+  	if (a > 2000)
+  {
+		digitalWrite(2, 0);
+    digitalWrite(3, 0);
+    digitalWrite(4, 0);
+    digitalWrite(5, 0);
+    digitalWrite(A0, 0);
+    digitalWrite(A1, 0);
+    digitalWrite(A2, 0);
+    digitalWrite(A3, 0);
+     }
 }
 
