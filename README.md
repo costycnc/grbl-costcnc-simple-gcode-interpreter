@@ -21,7 +21,6 @@ That is all :)
 
 A small program to test this firmware > https://www.costycnc.it/cm8
 
-<img src="https://github.com/costycnc/grbl-costycnc-simple-lightweight-gcode-interpreter/blob/main/foto/mount8.jpg">
 
 <img src="https://github.com/costycnc/grbl-costycnc-simple-lightweight-gcode-interpreter/blob/main/foto/mount8.jpg">
 
