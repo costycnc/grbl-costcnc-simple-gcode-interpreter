@@ -13,7 +13,7 @@ Misures in mm
 
 For unipolar stepper motor 28byj-48.
 
-Arduino nano pins >> Axe X  A0,A1,A2,A3 >>> Axe Y D2,D3,D4,D5 
+Arduino nano pins >> Axe Y  A0,A1,A2,A3 >>> Axe X D2,D3,D4,D5 
 
 G command need to be in separate lines. If two g command in same line will be read last g value!
 
