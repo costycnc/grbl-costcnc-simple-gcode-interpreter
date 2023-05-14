@@ -23,15 +23,17 @@ A small program to test this firmware > https://www.costycnc.it/cm8
 
 <img src="https://github.com/costycnc/grbl-costycnc-simple-lightweight-gcode-interpreter/blob/main/foto/mount8.jpg">
 
-<img src="https://github.com/costycnc/grbl-costycnc-simple-lightweight-gcode-interpreter/blob/main/foto/8.jpg">
+<img src="https://github.com/costycnc/grbl-costycnc-simple-lightweight-gcode-interpreter/blob/main/foto/mount8.jpg">
 
 <img src="https://github.com/costycnc/grbl-costycnc-simple-lightweight-gcode-interpreter/blob/main/foto/8.jpg">
 
+<img src="https://github.com/costycnc/grbl-costycnc-simple-lightweight-gcode-interpreter/blob/main/foto/schematic.jpg">
 
-<img src="https://raw.githubusercontent.com/costycnc/W600-pico-lasergrbl-protocol-foto/main/foto/schematic.jpg"> 
+<img src="https://github.com/costycnc/grbl-costycnc-simple-lightweight-gcode-interpreter/blob/main/foto/schematicpc.jpg">
 
 
-<img src="https://raw.githubusercontent.com/costycnc/W600-pico-lasergrbl-protocol-foto/main/foto/schematicpc.jpg"> 
+
+ 
 
 
 
