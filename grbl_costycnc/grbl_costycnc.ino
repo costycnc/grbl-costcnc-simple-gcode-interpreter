@@ -45,7 +45,7 @@ digitalWrite(A3, (xx[pasy]>>3)&1);
 
 void muove_cnc()
 {
-  while(x0 != x1 and y0 != y1)
+  while(x0 != x1 || y0 != y1)
   {
   delay(1);
       e2 = 2 * error;
