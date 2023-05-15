@@ -3,13 +3,15 @@ A simple a lightweight gcode interpreter for arduino nano
 
 Create by costycnc for costycnc foam cutter macchine www.costycnc.it
 
-Support X and Y only!!!
+Support only X and Y axe!!!
 
-Support G92 for make X and Y zero!!!
+Support only G92 for make X and Y zero!!!
 
-Support G90 and G91 !!!
+Support only G90 and G91 !!!
 
-Misures in mm
+Measure in mm
+
+All another commands will be ignored!!!
 
 For unipolar stepper motor 28byj-48.
 
